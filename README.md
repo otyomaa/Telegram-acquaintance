@@ -8,11 +8,11 @@
 
 Склонируйте репозиторий проекта с GitHub: 
 
-https://github.com/otyomaa/Telegram-acquaintance
+`https://github.com/otyomaa/Telegram-acquaintance`
 
 ## Установите зависимости, указанные в файле requirements.txt, с помощью команды:
 
-pip install -r requirements.txt.
+`pip install -r requirements.txt.`
 
 Создайте файл "auth_data.py" в корневой директории проекта и определите в нем переменную "token", которая должна содержать ваш токен Telegram бота.
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt.
 
 ## Запустите бота с помощью команды: 
 
-python main.py 
+`python main.py`
 
 Бот будет работать в режиме ожидания новых сообщений от пользователей.
 
