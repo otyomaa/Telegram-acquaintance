@@ -81,8 +81,9 @@ def func(message):
                                                             .format(message.from_user),
                                                             parse_mode='Markdown')
 
-    elif message.text == "Посмотреть код" or "посмотреть код":
-        bot.send_message(chat_id, text='Вот код 🫰🏻\n \n https://github.com/otyomaa/Blog')
+    elif message.text == "Посмотреть код" or message.text == "посмотреть код":
+        bot.send_message(chat_id, text="Вот код 🫰🏻\n \n"
+                                        "https://github.com/otyomaa/Telegram-acquaintance")
 
     else:
         bot.send_message(chat_id, text="Ошибочка вышла, проверь свою команду)", reply_markup=markup)
